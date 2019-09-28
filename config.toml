@@ -1,0 +1,104 @@
+baseurl = "https://www.komeoulou-sarl.ml/"
+languageCode = "fr-FR"
+title = "KOMEOULOU SARL"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Your name"
+	description = "Your description"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Komeoulou SARL"
+
+		[params.navigation.links]
+			about     = "A Propos"
+			services  = "Services"
+			portfolio = "Articles"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Commerce Général"
+		subtitle   = "[Komeoulou](//komeoulou-sarl.ml) s'appuie sur une expérience de plus de 20 ans dans le domaine. Nous pouvouns vous en faire bénéficier !"
+		buttonText = "En savoir plus"
+
+
+	# About section
+	[params.about]
+		headline    = "Notre métier, c'est vous servir!"
+		description = "[Nous](//komeoulou-sarl.ml) pouvons aujourd'hui faire profiter nos clients d’une réelle expertise dans des secteurs aussi divers que l’électronique mobile, l’informatique, le matériel de bureau, les consommables et ce jusqu’à l’alimentation!"
+		buttonText  = "Venez nous rencontrer !"
+
+
+	# Service section
+	[params.services]
+		headline = "A votre service"
+
+        [[params.services.list]]
+            icon = "fa-home"
+            title = "Electromenager"
+            description = "Réfrigirateurs, ventilateurs, micro-ondes..."
+
+        [[params.services.list]]
+			icon = "fa-building"
+			title = "Bureautique"
+			description = "Des stylos jusqua'aux meubles..."
+
+		[[params.services.list]]
+            icon = "fa-laptop"
+            title = "Informatique"
+            description = "PC, laptop, logiciels..."
+
+        [[params.services.list]]
+            icon = "fa-power-off"
+            title = "Solaire"
+            description = "Panneaux solaires, batteries et installation..."
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "Venez nous rencontrez : Centre Commercial Immeuble Gaoussou DIAWARA"
+
+
+	# Contact section
+	[params.contact]
+		headline = "Contactez-nous!"
+		description = "Nous sommes aà votre disposition pour toute question. N'hésitez pas à nous contacter!"
+		phone = "+22376424813 / +22360238033"
+		email = "ddrame@gmail.com"
+
+	# Google Maps section
+	# [params.location]
+	# 	latitude  = "34.007850"
+	# 	longitude = "-118.499305"
+	# 	maps_api_key = ""
